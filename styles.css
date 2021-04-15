@@ -31,12 +31,23 @@ textarea {
   font-size: inherit;
 }
 
+section {
+  display: grid;
+  display-gap: 40px;
+}
+
+.links-social {
+  place-items: center;
+}
 .page-header {
   background: var(--header);
+  display: grid;
+  grid-gap: 40px;
+  place-items: center;
 }
 
 .button {
-  background: #000;
+  background: rgb(107, 106, 106);
   color: white;
   border-bottom: none;
   padding: 4px;
@@ -46,8 +57,4 @@ textarea {
 .image-fluid {
   width: 100%;
   height: auto;
-}
-.octocat {
-  width: 100px;
-  height: 120px;
 }
