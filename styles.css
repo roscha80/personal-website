@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-family: 'Lato', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.4;
+}
+
+input,
+button,
+textarea {
+  font-size: inherit;
+}
