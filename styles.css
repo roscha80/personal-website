@@ -14,7 +14,7 @@ a {
 }
 
 nav {
-  margin: 5px;
+  margin: 15px;
 }
 
 body {
@@ -33,12 +33,16 @@ textarea {
 
 section {
   display: grid;
-  display-gap: 40px;
+  gap: 10px;
+  place-items: center;
+  border-bottom: var(--black) solid;
 }
 
-.links-social {
-  place-items: center;
+p {
+  text-align: justify;
+  margin: 10px;
 }
+
 .page-header {
   background: var(--header);
   display: grid;
@@ -46,12 +50,19 @@ section {
   place-items: center;
 }
 
-.button {
+.button-dark {
   background: rgb(107, 106, 106);
-  color: white;
+  color: darkgrey;
   border-bottom: none;
   padding: 4px;
-  border-radius: 5px;
+}
+
+.button-light {
+  background: rgb(175, 175, 175);
+  color: var(--black);
+  border-bottom: none;
+  padding: 4px;
+  opacity: 60%;
 }
 
 .image-fluid {
