@@ -45,27 +45,53 @@ p {
   text-align: justify;
 }
 
-#flexbox {
+#flexbox-interests {
   display: flex;
   height: auto;
   column-gap: 20px;
 }
 
-#flexbox > div {
+#flexbox-interests > div {
   flex: auto;
+}
+
+#flexbox-skills {
+  display: flex;
+  height: auto;
+  column-gap: 20px;
+}
+
+#flexbox-skills > div {
+  flex: auto;
+}
+
+#flexbox-social {
+  display: flex;
+  height: auto;
+  column-gap: 20px;
+  flex-direction: row;
+}
+
+#flexbox-social > div {
+  flex: auto;
+}
+
+@media only screen and (max-width: 599px) {
+  #flexbox-social {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #flexbox-social {
+    flex-direction: row;
+  }
 }
 
 .social {
   text-decoration: none;
   margin: 10px;
   align-content: space-between;
-}
-
-.page-header {
-  background: var(--header);
-  display: grid;
-  grid-gap: 40px;
-  place-items: center;
 }
 
 .button-dark {
