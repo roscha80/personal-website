@@ -10,7 +10,10 @@
 
 a {
   text-decoration: none;
-  border-bottom: 1px solid;
+}
+
+address {
+  margin-bottom: 20px;
 }
 
 nav {
@@ -47,11 +50,15 @@ ul {
   list-style-type: none;
   margin: o;
 }
+li {
+  margin: 0;
+}
 
-.lists {
+.social {
   display: flex;
-  margin: 20px auto;
-  place-items: center;
+  text-decoration: none;
+  margin: 20px;
+  align-content: space-between;
 }
 
 .page-header {
@@ -72,7 +79,6 @@ ul {
   background: rgb(175, 175, 175);
   border-bottom: none;
   color: var(--black);
-  opacity: 60%;
   padding: 4px;
 }
 
