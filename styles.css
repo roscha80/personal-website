@@ -18,11 +18,11 @@ nav {
 }
 
 body {
+  background-color: var(--primary);
+  color: var(--black);
   font-family: 'Lato', sans-serif;
   font-size: 112.5%;
   line-height: 1.4;
-  color: var(--black);
-  background-color: var(--primary);
 }
 
 input,
@@ -32,15 +32,25 @@ textarea {
 }
 
 section {
+  border-bottom: var(--black) solid;
   display: grid;
   gap: 10px;
   place-items: center;
-  border-bottom: var(--black) solid;
 }
 
 p {
-  text-align: justify;
   margin: 10px;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  margin: o;
+}
+
+.lists {
+  display: grid;
+  grid-template-rows: 50% 50%;
 }
 
 .page-header {
@@ -52,20 +62,20 @@ p {
 
 .button-dark {
   background: rgb(107, 106, 106);
-  color: darkgrey;
   border-bottom: none;
+  color: darkgrey;
   padding: 4px;
 }
 
 .button-light {
   background: rgb(175, 175, 175);
-  color: var(--black);
   border-bottom: none;
-  padding: 4px;
+  color: var(--black);
   opacity: 60%;
+  padding: 4px;
 }
 
 .image-fluid {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
