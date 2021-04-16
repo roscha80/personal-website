@@ -46,12 +46,30 @@ p {
   text-align: justify;
 }
 
+h2 {
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
   margin: o;
 }
 li {
   margin: 0;
+}
+
+#flexbox {
+  display: flex;
+  height: auto;
+  column-gap: 20px;
+}
+
+#flexbox > div {
+  flex: auto;
+}
+
+.skills {
+  place-items: center;
 }
 
 .social {
