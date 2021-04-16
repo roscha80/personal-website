@@ -49,8 +49,9 @@ ul {
 }
 
 .lists {
-  display: grid;
-  grid-template-rows: 50% 50%;
+  display: flex;
+  margin: 20px auto;
+  place-items: center;
 }
 
 .page-header {
