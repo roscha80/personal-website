@@ -8,25 +8,112 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
       rel="stylesheet"
     />
   </head>
 
   <body>
-    <header class="page-header">
-      <h1 id="start">Rob's personal website</h1>
+    <header id="start" class="page-header">
       <nav>
-        <a class="button-dark" href="#contact">Contact</a>
         <a class="button-dark" href="#bio">Bio</a>
-        <a class="button-dark" href="#cv">CV</a>
+        <a class="button-dark" href="#contact">Contact</a>
       </nav>
+      <h1>Rob's personal website</h1>
+      <img class="image-fluid" src="images/me.jpeg" alt="" />
     </header>
     <main class="page-main">
-      <img class="image-fluid" src="images/me.jpeg" alt="" />
       <section>
-        <h2>interests</h2>
-        <div id="flexbox-interests">
+        <h2>cv</h2>
+        <div id="flexbox-cv">
+          <div>
+            <dl>
+              <dd>04.2021 bis jetzt</dd>
+              <dd>Web Development Bootcamp</dd>
+              <dd>neuefische GmbH, Hamburg</dd>
+            </dl>
+          </div>
+          <br />
+          <div>
+            <dl>
+              <dd>04.2020 bis 03.2021</dd>
+              <dd>Junior Java Developer</dd>
+              <dd>Academic Works, Hamburg</dd>
+            </dl>
+          </div>
+          <br />
+          <div>
+            <dl>
+              <dd>01.2020 bis 03.2020</dd>
+              <dd>Java Bootcamp</dd>
+              <dd>Academic Works, Hamburg</dd>
+            </dl>
+          </div>
+          <br />
+          <div>
+            <dl>
+              <dd>05.2014 bis 12.2019</dd>
+              <dd>Grafiker/Designer</dd>
+              <dd>Justfitteds, Hamburg</dd>
+            </dl>
+          </div>
+          <br />
+          <div>
+            <dl>
+              <dd>2013 bis 2014</dd>
+              <dd>Grafiker/Cutter/Colorist</dd>
+              <dd>Mamapost GmbH, Hamburg/Berlin</dd>
+            </dl>
+          </div>
+          <br />
+          <div>
+            <dl>
+              <dd>2008 bis 2013</dd>
+              <dd>Grafiker/Head of graphic</dd>
+              <dd>TVN Group/Mobile Productions, Hannover/Hamburg</dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+      <section id="bio" class="bio">
+        <h2>bio</h2>
+        <p>
+          Born in 1980 in Greifswald in East Germany, i finished school with
+          middle maturity in 1996. After finishing training to become draftsman
+          and worked in different companies. I started 2003 my career in the
+          graphic world at Mediaschool in Waren, Muritz.<br />
+          Working several years as a graphic artist in different fields and
+          agencys around europe i became 2008 head of graphic at TVN GmbH, a TV
+          and Movie production company in Hannover. <br />
+          Since i worked over 7 years in the tv and movie industry i decided to
+          get more into coding and finished successful the Academic Works Java
+          Bootcamp in 2020. <br />
+          As a graphic artist my love is to see and create beautyful things and
+          i managed to get a place at the web development bootcamp at neuefische
+          to learn more about frontend development. <br />
+          Hopefully i will finish it successful in july 2021.
+        </p>
+      </section>
+      <section>
+        <div id="flexbox-skills">
+          <h2>skills</h2>
+          <div>
+            <dl>
+              <dd>HTML</dd>
+              <dd>CSS</dd>
+              <dd>JavaScript</dd>
+              <dd>Java</dd>
+            </dl>
+          </div>
+          <div>
+            <dl>
+              <dd>Adobe CS</dd>
+              <dd>Procreate</dd>
+              <dd>Final Cut</dd>
+            </dl>
+          </div>
+
+          <h2>interests</h2>
           <div>
             <dl>
               <dd>Roadbike/Crossbike</dd>
@@ -46,36 +133,21 @@
           </div>
         </div>
       </section>
-      <section>
-        <h2>skills</h2>
-        <div id="flexbox-skills">
+      <section class="social_out">
+        <div id="flexbox-social" class="social">
           <div>
-            <dl>
-              <dd>HTML</dd>
-              <dd>CSS</dd>
-              <dd>JavaScript</dd>
-              <dd>Java</dd>
-            </dl>
+            <address id="contact">
+              <form method="post" action="mailto:roscha80@web.de">
+                <input
+                  type="image"
+                  id="image"
+                  alt="mail me"
+                  src="images/mail_red.png"
+                  title="Mail me"
+                />
+              </form>
+            </address>
           </div>
-          <div>
-            <dl>
-              <dd>Adobe CS</dd>
-              <dd>Procreate</dd>
-              <dd>Final Cut</dd>
-            </dl>
-          </div>
-        </div>
-      </section>
-      <section id="contact">
-        <address>
-          <h2>contact</h2>
-          <a class="button-light" href="mailto:roscha80@web.de" title="Mail me"
-            >Mail me</a
-          ><br />
-        </address>
-      </section>
-      <section class="social">
-        <div id="flexbox-social">
           <div>
             <a
               href="https://github.com/roscha80"
@@ -128,59 +200,10 @@
         </div>
         <br />
       </section>
-      <section id="bio">
-        <h2>bio</h2>
-        <p>
-          Born in 1980 in Greifswald in East Germany, i finished school with
-          middle maturity in 1996. After finishing training to become draftsman
-          and worked in different companies. I started 2003 my career in the
-          graphic world at Mediaschool in Waren, Muritz.<br />
-          Working several years as a graphic artist in different fields and
-          agencys around europe i became 2008 head of graphic at TVN GmbH, a TV
-          and Movie production company in Hannover. <br />
-          Since i worked over 7 years in the tv and movie industry i decided to
-          get more into coding and finished successful the Academic Works Java
-          Bootcamp in 2020. <br />
-          As a graphic artist my love is to see and create beautyful things and
-          i managed to get a place at the web development bootcamp at neuefische
-          to learn more about frontend development. <br />
-          Hopefully i will finish it successful in july 2021.
-        </p>
-      </section>
-      <section id="cv">
-        <h2>cv</h2>
-        <dl>
-          <dd>04.2021 bis jetzt</dd>
-          <dd>Web Development Bootcamp</dd>
-          <dd>neuefische GmbH, Hamburg</dd>
-          <br />
-          <dd>04.2020 bis 03.2021</dd>
-          <dd>Junior Java Developer</dd>
-          <dd>Academic Works, Hamburg</dd>
-          <br />
-          <dd>01.2020 bis 03.2020</dd>
-          <dd>Java Bootcamp</dd>
-          <dd>Academic Works, Hamburg</dd>
-          <br />
-          <dd>05.2014 bis 12.2019</dd>
-          <dd>Grafiker/Designer</dd>
-          <dd>Justfitteds, Hamburg</dd>
-          <br />
-          <dd>2013 bis 2014</dd>
-          <dd>Grafiker/Cutter/Colorist</dd>
-          <dd>Mamapost GmbH, Hamburg/Berlin</dd>
-          <br />
-          <dd>2008 bis 2013</dd>
-          <dd>Grafiker/Head of graphic</dd>
-          <dd>TVN Group/Mobile Productions, Hannover/Hamburg</dd>
-        </dl>
-      </section>
     </main>
     <footer>
       <section>
         <nav>
-          <!-- <a class="button-light" href="#imprint">Imprint</a> -->
-          <!-- <a class="button-light" href="#agtc">GTC</a> -->
           <a class="button-light" href="#contact">Contact</a>
           <a class="button-light" href="#start" title="Up and away"
             >Back to Top</a

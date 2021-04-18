@@ -3,17 +3,20 @@
 }
 
 :root {
-  --primary: lightgrey;
-  --black: #333;
-  --header: grey;
+  --primary: #efefef;
+  --secondary: #caebf2;
+  --font: #ff3b3f;
+  --section: #cdcdcd;
+  --h2: #caebf2;
 }
 
 a {
   text-decoration: none;
 }
 
-address {
-  margin-bottom: 20px;
+dd {
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -22,8 +25,8 @@ nav {
 
 body {
   background-color: var(--primary);
-  color: var(--black);
-  font-family: 'Lato', sans-serif;
+  color: var(--font);
+  font-family: 'Abel', sans-serif;
   font-size: 112.5%;
   line-height: 1.5;
 }
@@ -34,10 +37,21 @@ textarea {
   font-size: inherit;
 }
 
+h2 {
+  background: var(--section);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+img {
+  padding: 0 10px;
+}
+
 section {
-  border-bottom: var(--black) solid;
+  border-bottom: solid;
   display: grid;
   justify-items: center;
+  padding: 15px;
 }
 
 p {
@@ -47,20 +61,13 @@ p {
 }
 
 .page-header {
-  background: var(--header);
   display: grid;
   grid-gap: 40px;
   place-items: center;
 }
 
-#flexbox-interests {
-  display: flex;
-  height: auto;
-  column-gap: 20px;
-}
-
-#flexbox-interests > div {
-  flex: auto;
+.interests {
+  background: var(--interests);
 }
 
 #flexbox-skills {
@@ -71,6 +78,19 @@ p {
 
 #flexbox-skills > div {
   flex: auto;
+  grid-template-columns: 50px;
+}
+
+@media only screen and (max-width: 499px) {
+  #flexbox-skills {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  #flexbox-skills {
+    flex-direction: row;
+  }
 }
 
 #flexbox-social {
@@ -102,8 +122,43 @@ p {
   align-content: space-between;
 }
 
+#flexbox-cv {
+  display: flex;
+  height: auto;
+  column-gap: 20px;
+  flex-direction: row;
+}
+
+#flexbox-cv > div {
+  flex: auto;
+}
+
+@media only screen and (max-width: 1199px) {
+  #flexbox-cv {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #flexbox-cv {
+    flex-direction: row;
+  }
+}
+
+header {
+  background: #caebf2;
+}
+
+.bio {
+  background: #caebf2;
+}
+
+.social_out {
+  background: #caebf2;
+}
+
 .button-dark {
-  background: rgb(107, 106, 106);
+  background: var(--primary);
   border-bottom: none;
   color: darkgrey;
   padding: 8px;
@@ -111,9 +166,9 @@ p {
 }
 
 .button-light {
-  background: rgb(175, 175, 175);
+  background: var(--section);
   border-bottom: none;
-  color: var(--black);
+  color: var(--font);
   padding: 8px;
   border-radius: 5px;
 }
