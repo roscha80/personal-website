@@ -1,0 +1,6 @@
+.page-header {
+  display: grid;
+  grid-gap: 40px;
+  place-items: center;
+  background: --secondary;
+}

@@ -1,0 +1,16 @@
+.button-light {
+  background: var(--primary);
+  border-bottom: none;
+  border-radius: 5px;
+  color: --section;
+  padding: 8px;
+}
+
+.button-dark {
+  background: var(--section);
+  border-bottom: none;
+  border-radius: 5px;
+  color: var(--font);
+  padding: 8px;
+  width: max-content;
+}

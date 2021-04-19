@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  padding: 25px;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 15px;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--font);
+  font-family: 'Abel', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.5;
+}
+
+input,
+button,
+textarea {
+  font-size: inherit;
+}
+
+h2 {
+  background: var(--section);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+img {
+  padding: 0 10px;
+}
+
+section {
+  border-bottom: solid rgba(255, 59, 63, 0.5);
+  display: grid;
+  padding: 15px;
+  place-items: center;
+}
+
+p {
+  line-height: 1.8;
+  margin: 10px 10px;
+  text-align: justify;
+}

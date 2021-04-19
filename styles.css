@@ -1,123 +1,15 @@
-* {
-  box-sizing: border-box;
-}
+@import './_variables.css';
 
-:root {
-  --primary: #efefef;
-  --secondary: #caebf2;
-  --font: #ff3b3f;
-  --section: #cdcdcd;
-  --h2: #caebf2;
-}
+@import './_base.css';
 
-a {
-  text-decoration: none;
-}
+@import './_utility.css';
 
-address {
-  padding: 25px;
-}
+@import '/components/header.css';
 
-dd {
-  margin: 0;
-  padding: 0;
-}
-
-nav {
-  margin: 15px;
-}
-
-body {
-  background-color: var(--primary);
-  color: var(--font);
-  font-family: 'Abel', sans-serif;
-  font-size: 112.5%;
-  line-height: 1.5;
-}
-
-input,
-button,
-textarea {
-  font-size: inherit;
-}
-
-h2 {
-  background: var(--section);
-  border-radius: 5px;
-  padding: 8px;
-}
-
-img {
-  padding: 0 10px;
-}
-
-section {
-  border-bottom: solid rgba(255, 59, 63, 0.5);
-  display: grid;
-  padding: 15px;
-  place-items: center;
-}
-
-p {
-  line-height: 1.8;
-  margin: 10px 10px;
-  text-align: justify;
-}
-
-.page-header {
-  display: grid;
-  grid-gap: 40px;
-  place-items: center;
-}
+@import '/components/buttons.css';
 
 .interests {
   background: var(--interests);
-}
-
-#flexbox-skills {
-  column-gap: 20px;
-  display: flex;
-  height: auto;
-}
-
-#flexbox-skills > div {
-  flex: auto;
-  grid-template-columns: 50px;
-}
-
-@media only screen and (max-width: 499px) {
-  #flexbox-skills {
-    flex-direction: column;
-  }
-}
-
-@media only screen and (min-width: 500px) {
-  #flexbox-skills {
-    flex-direction: row;
-  }
-}
-
-#flexbox-social {
-  column-gap: 20px;
-  display: flex;
-  flex-direction: row;
-  height: auto;
-}
-
-#flexbox-social > div {
-  flex: auto;
-}
-
-@media only screen and (max-width: 599px) {
-  #flexbox-social {
-    flex-direction: column;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  #flexbox-social {
-    flex-direction: row;
-  }
 }
 
 .social {
@@ -126,57 +18,12 @@ p {
   text-decoration: none;
 }
 
-#flexbox-cv {
-  column-gap: 20px;
-  display: flex;
-  flex-direction: row;
-  height: auto;
-  margin: 15px;
-  place-content: center;
-}
-
-#flexbox-cv > div {
-  flex: auto;
-}
-
-@media only screen and (max-width: 1199px) {
-  #flexbox-cv {
-    flex-direction: column;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  #flexbox-cv {
-    flex-direction: row;
-  }
-}
-
-header {
-  background: #caebf2;
-}
-
 .bio {
-  background: #caebf2;
+  background: --secondary;
 }
 
 .social_out {
-  background: #caebf2;
-}
-
-.button-light {
-  background: var(--primary);
-  border-bottom: none;
-  border-radius: 5px;
-  color: darkgrey;
-  padding: 8px;
-}
-
-.button-dark {
-  background: var(--section);
-  border-bottom: none;
-  border-radius: 5px;
-  color: var(--font);
-  padding: 8px;
+  background: --secondary;
 }
 
 .image-fluid {
