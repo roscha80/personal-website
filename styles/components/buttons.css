@@ -2,7 +2,7 @@
   background: var(--primary);
   border-bottom: none;
   border-radius: 5px;
-  color: --section;
+  color: var(--font);
   padding: 8px;
 }
 
