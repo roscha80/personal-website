@@ -48,7 +48,7 @@ img {
 }
 
 section {
-  border-bottom: solid;
+  border-bottom: solid rgba(255, 59, 63, 0.5);
   display: grid;
   place-items: center;
   padding: 15px;
