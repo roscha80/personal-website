@@ -1,6 +1,6 @@
-.page-header {
+.header__style {
   display: grid;
   grid-gap: 40px;
   place-items: center;
-  background: --secondary;
+  background: var(--secondary);
 }

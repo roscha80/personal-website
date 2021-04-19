@@ -1,33 +1,9 @@
-@import './styles/_variables.css';
-
 @import './styles/_base.css';
-
 @import './styles/_utility.css';
-
-@import '/styles/components/header.css';
-
+@import './styles/_variables.css';
+@import '/styles/components/bio.css';
 @import '/styles/components/buttons.css';
-
-.interests {
-  background: var(--interests);
-}
-
-.social {
-  align-content: space-between;
-  margin: 10px;
-  text-decoration: none;
-}
-
-.bio {
-  background: --secondary;
-}
-
-.social_out {
-  background: --secondary;
-}
-
-.image-fluid {
-  height: auto;
-  margin: 10px 0;
-  width: 100%;
-}
+@import '/styles/components/cv.css';
+@import '/styles/components/header.css';
+@import '/styles/components/interests.css';
+@import '/styles/components/social.css';

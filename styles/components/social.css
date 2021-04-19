@@ -1,0 +1,28 @@
+.social__general {
+  align-content: space-between;
+  margin: 10px;
+  text-decoration: none;
+}
+.social--bg {
+  background: var(--secondary);
+}
+
+.social__flexbox {
+  flex-direction: row;
+}
+
+.social__flexbox > div {
+  flex: auto;
+}
+
+@media (max-width: 599px) {
+  .social__flexbox {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 600px) {
+  .social__flexbox {
+    flex-direction: row;
+  }
+}
