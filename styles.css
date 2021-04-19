@@ -163,7 +163,7 @@ header {
   background: #caebf2;
 }
 
-.button-dark {
+.button-light {
   background: var(--primary);
   border-bottom: none;
   border-radius: 5px;
@@ -171,7 +171,7 @@ header {
   padding: 8px;
 }
 
-.button-light {
+.button-dark {
   background: var(--section);
   border-bottom: none;
   border-radius: 5px;
