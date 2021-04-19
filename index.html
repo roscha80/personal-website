@@ -11,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
       rel="stylesheet"
     />
-
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -91,18 +90,18 @@
   </head>
 
   <body>
-    <header id="start" class="page-header">
+    <header id="start" class="header__style">
       <nav>
-        <a class="button-light" href="#bio">Bio</a>
-        <a class="button-light" href="#contact">Contact</a>
+        <a class="button__light" href="#bio">Bio</a>
+        <a class="button__light" href="#contact">Contact</a>
       </nav>
       <h1>Rob's personal website</h1>
-      <img class="image-fluid" src="images/me.jpeg" alt="" />
+      <img class="image__fluid" src="images/me.jpeg" alt="" />
     </header>
-    <main class="page-main">
+    <main>
       <section>
         <h2>cv</h2>
-        <div id="flexbox-cv">
+        <div class="flexbox__general cv__flexbox">
           <div>
             <dl>
               <dd>04.2021 bis jetzt</dd>
@@ -152,7 +151,7 @@
           </div>
         </div>
       </section>
-      <section id="bio" class="bio">
+      <section id="bio" class="bio--bg">
         <h2>bio</h2>
         <p>
           Born in 1980 in Greifswald in East Germany, i finished school with
@@ -172,7 +171,7 @@
         </p>
       </section>
       <section>
-        <div id="flexbox-skills">
+        <div class="flexbox__general interests__flexbox">
           <h2>skills</h2>
           <div>
             <dl>
@@ -210,8 +209,8 @@
           </div>
         </div>
       </section>
-      <section class="social_out">
-        <div id="flexbox-social" class="social">
+      <section class="social--bg">
+        <div class="social__general flexbox__general social__flexbox">
           <div>
             <address id="contact">
               <form method="post" action="mailto:roscha80@web.de">
@@ -281,7 +280,7 @@
     <footer>
       <section>
         <nav>
-          <a class="button-dark" href="#start" title="All the way up"
+          <a class="button__dark" href="#start" title="All the way up"
             >Back to Top</a
           >
         </nav>

@@ -1,0 +1,21 @@
+.cv__flexbox {
+  flex-direction: row;
+  margin: 15px;
+  place-content: center;
+}
+
+.cv__flexbox > div {
+  flex: auto;
+}
+
+@media (max-width: 1199px) {
+  .cv__flexbox {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cv__flexbox {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,11 @@
+.image__fluid {
+  height: auto;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.flexbox__general {
+  column-gap: 20px;
+  display: flex;
+  height: auto;
+}

@@ -1,0 +1,15 @@
+.interests__flexbox > div {
+  flex: auto;
+}
+
+@media (max-width: 499px) {
+  .interests__flexbox {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 500px) {
+  .interests__flexbox {
+    flex-direction: row;
+  }
+}
