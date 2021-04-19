@@ -43,8 +43,8 @@ textarea {
 
 h2 {
   background: var(--section);
-  padding: 8px;
   border-radius: 5px;
+  padding: 8px;
 }
 
 img {
@@ -54,14 +54,14 @@ img {
 section {
   border-bottom: solid rgba(255, 59, 63, 0.5);
   display: grid;
-  place-items: center;
   padding: 15px;
+  place-items: center;
 }
 
 p {
+  line-height: 1.8;
   margin: 10px 10px;
   text-align: justify;
-  line-height: 1.8;
 }
 
 .page-header {
@@ -75,9 +75,9 @@ p {
 }
 
 #flexbox-skills {
+  column-gap: 20px;
   display: flex;
   height: auto;
-  column-gap: 20px;
 }
 
 #flexbox-skills > div {
@@ -98,10 +98,10 @@ p {
 }
 
 #flexbox-social {
-  display: flex;
-  height: auto;
   column-gap: 20px;
+  display: flex;
   flex-direction: row;
+  height: auto;
 }
 
 #flexbox-social > div {
@@ -121,18 +121,18 @@ p {
 }
 
 .social {
-  text-decoration: none;
-  margin: 10px;
   align-content: space-between;
+  margin: 10px;
+  text-decoration: none;
 }
 
 #flexbox-cv {
-  display: flex;
-  height: auto;
   column-gap: 20px;
+  display: flex;
   flex-direction: row;
-  place-content: center;
+  height: auto;
   margin: 15px;
+  place-content: center;
 }
 
 #flexbox-cv > div {
@@ -166,21 +166,21 @@ header {
 .button-dark {
   background: var(--primary);
   border-bottom: none;
+  border-radius: 5px;
   color: darkgrey;
   padding: 8px;
-  border-radius: 5px;
 }
 
 .button-light {
   background: var(--section);
   border-bottom: none;
+  border-radius: 5px;
   color: var(--font);
   padding: 8px;
-  border-radius: 5px;
 }
 
 .image-fluid {
   height: auto;
-  width: 100%;
   margin: 10px 0;
+  width: 100%;
 }
