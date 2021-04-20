@@ -1,4 +1,4 @@
-.button__light {
+.button--light {
   background: var(--primary);
   border-bottom: none;
   border-radius: 5px;
@@ -6,7 +6,7 @@
   padding: 8px;
 }
 
-.button__dark {
+.button--dark {
   background: var(--section);
   border-bottom: none;
   border-radius: 5px;
