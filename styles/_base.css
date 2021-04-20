@@ -33,6 +33,18 @@ textarea {
   font-size: inherit;
 }
 
+@media (max-width: 699px) {
+  h1 {
+    font-size: 115%;
+  }
+}
+
+@media (min-width: 700px) {
+  h1 {
+    font-size: 150%;
+  }
+}
+
 h2 {
   background: var(--section);
   border-radius: 5px;
