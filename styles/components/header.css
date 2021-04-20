@@ -1,6 +1,6 @@
 .header__style {
+  background: var(--secondary);
   display: grid;
   grid-gap: 40px;
   place-items: center;
-  background: var(--secondary);
 }
