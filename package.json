@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roscha80/personal-website.git"
+  },
+  "author": "Rob Schade <roscha80@web.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roscha80/personal-website/issues"
+  },
+  "homepage": "https://github.com/roscha80/personal-website#readme",
+  "devDependencies": {
+    "live-server": "1.2.1"
+  }
+}
